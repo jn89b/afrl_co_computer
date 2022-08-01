@@ -1,0 +1,13 @@
+[Unit]
+Description = AFRL ROS startup
+After = remote-fs.target
+After = syslog.target
+StartLimitIntervalSec=0
+
+[Service]
+ExecStart= /bin/bash /home/fastlab/afrl_start.sh
+Restart = always
+RestartSec=1
+
+[Install]
+WantedBy = multi-user.target
