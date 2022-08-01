@@ -5,7 +5,7 @@ This repo allows the co-computer to boot up the afrl_ros launch file automatical
 
 1. Download the afrl_co_computer repo:
 ```
-
+git clone https://github.com/jn89b/afrl_co_computer.git
 ``` 
 
 2. Download the afrl_docker container repo:
